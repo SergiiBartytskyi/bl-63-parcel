@@ -1,0 +1,31 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.relationships-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 41px;
+line-height: 1.2;
+text-align: center;
+color: #000000;
+}
+
+.relationships-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 30px;
+text-align: center;
+color: #737373;
+}
+
+.relationships-item {
+    display: flex;
+}
