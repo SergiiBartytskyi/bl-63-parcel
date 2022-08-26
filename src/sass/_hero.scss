@@ -60,6 +60,13 @@ a {
   margin-left: auto;
 }
 
+// .header {
+//   position: absolute;
+//   width: 100%;
+// }
+
+/*Hero*/
+
 img {
   display: block;
   max-width: 100%;
@@ -90,16 +97,22 @@ button {
 .hero__wrap {
   max-width: 450px;
 }
-
 .hero {
   max-width: 1600px;
   padding-top: 185px;
   padding-bottom: 200px;
+
   // background-color: #0D0D33;
   // background-image: url(../images/hero-img.png);
   // background-repeat: no-repeat;
   // background-position: center;
   // background-size: cover;
+
+  background-color: #0d0d33;
+  background-image: url(../images/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__title {

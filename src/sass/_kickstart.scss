@@ -1,0 +1,49 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.kickstart-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 41px;
+line-height: 1.2;
+text-align: center;
+color: #000000;
+margin-bottom: 35px;
+}
+
+.kickstart-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 2.7;
+text-align: center;
+color: #737373;
+margin-bottom: 73px;
+}
+.kickstart-list {
+    display: flex;
+    gap: 13px;
+}
+
+.kickstart-btn {
+    width: 200px;
+    height: 62px;
+    border: 2px solid #E8E8E8;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: #0A8BFE;
+}
+
+
