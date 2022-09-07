@@ -9,6 +9,7 @@ h2, h3 {
   position: relative;
   height: 880px;
   padding-top: 150px;
+  margin-bottom: 1100px;
 
   background: #0E0E33;
 }
@@ -48,15 +49,16 @@ color: #FFFFFF;
 }
 .work-example {
 position: absolute;
+  top: 500px;
+  
 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 
-  
-  list-style: none;
 
+  list-style: none;
 
   .work-example__item {
   padding: 10px;
@@ -83,6 +85,10 @@ line-height: 1.88;
 color: #737373;
 }
 .our-work__btn {
+  position: absolute;
+  bottom: -971px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   margin: 0 auto;
