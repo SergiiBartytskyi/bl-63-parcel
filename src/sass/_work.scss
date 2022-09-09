@@ -1,0 +1,88 @@
+/* ---------progress------------ */
+.progress {
+    padding-bottom: 150px;
+}
+
+.progress-title {
+    margin-bottom: 35px;
+    color: var(--title-color);
+    font-size: 41px;
+    line-height: 1.22;
+    text-align: center;
+}
+
+.progress-text {
+    margin-bottom: 85px;
+    color: var(--primery-text-color);
+    font-size: 12px;
+    line-height: 2.50;
+    text-align: center;
+}
+
+.progress-filter-link {
+    color: var(--title-color);
+    font-size: 24px;
+    line-height: 1.58;
+}
+
+.progress-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.progress-filter-link:hover,
+.progress-filter-link:focus {
+    color: #0A8BFE;
+}
+
+.offer-title {
+    margin-bottom: 23px;
+    color: var(--title-color);
+    font-size: 19px;
+    line-height: 1.47;
+}
+
+.offer-text {
+    color: var(--primery-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+
+}
+
+.offer-item {
+    width: 560px;
+    padding: 40px 70px 40px 40px;
+    border: 1px solid #E8E8E8;
+}
+
+/* .offer-item {
+    width: calc((100%-40px) / 2);
+} */
+.progress-offer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-button {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 15px;
+    line-height: 2;
+    color: #FFFFFF;
+    background-color: #0A8BFE;
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+}
