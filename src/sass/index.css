@@ -721,6 +721,11 @@ ol {
   border-bottom: 2px solid #e8e8e8;
 }
 
+.icon-plus:hover,
+.icon-plus:focus {
+  fill: #0a8bfe;
+}
+
 .resources {
   padding-top: 150px;
   padding-bottom: 160px;
